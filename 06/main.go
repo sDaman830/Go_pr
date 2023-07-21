@@ -14,5 +14,6 @@ func main() {
 	fmt.Println(fruitList[0])
 	fmt.Println(len(fruitList))
 	var veg = [3]string{"p", "b"}
+	fmt.Printf("type of %T\n", veg)
 	fmt.Println(veg)
 }
