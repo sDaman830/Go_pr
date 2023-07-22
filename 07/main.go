@@ -26,5 +26,7 @@ func main() {
 	fmt.Println(highScores)
 
 	var courses = []string{"r", "d", "wew", "rr"}
+	//removing wew
+	courses = append(courses[:2], courses[3:]...)
 	fmt.Println(courses)
 }
