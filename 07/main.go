@@ -24,4 +24,7 @@ func main() {
 	highScores = append(highScores, 555, 666, 848)
 	sort.Ints(highScores)
 	fmt.Println(highScores)
+
+	var courses = []string{"r", "d", "wew", "rr"}
+	fmt.Println(courses)
 }
