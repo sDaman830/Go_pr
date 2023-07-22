@@ -28,5 +28,6 @@ func main() {
 	var courses = []string{"r", "d", "wew", "rr"}
 	//removing wew
 	courses = append(courses[:2], courses[3:]...)
+	fmt.Printf("")
 	fmt.Println(courses)
 }
